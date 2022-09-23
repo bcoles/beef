@@ -243,7 +243,7 @@ GEM
     unicode-display_width (2.2.0)
     webrick (1.7.0)
     websocket (1.2.9)
-    websocket-client-simple (0.5.1)
+    websocket-client-simple (0.6.0)
       event_emitter
       websocket
     xmlrpc (0.3.2)
@@ -276,9 +276,9 @@ DEPENDENCIES
   parseconfig
   pry-byebug
   qr4r
-  rack (>= 2.2.3.1)
-  rack-protection (>= 2.0.0)
-  rake (>= 12.3.3)
+  rack (>= 2.2.4)
+  rack-protection (>= 2.2.0)
+  rake (>= 13.0)
   rdoc
   rest-client (>= 2.1.0)
   rspec
@@ -286,7 +286,7 @@ DEPENDENCIES
   rubyzip (>= 1.2.2)
   rushover
   selenium-webdriver
-  sinatra (>= 2.0.2)
+  sinatra (>= 2.2.0)
   slack-notifier
   sqlite3
   term-ansicolor
@@ -294,9 +294,9 @@ DEPENDENCIES
   test-unit-full
   thin
   twitter (>= 7.0.0)
-  uglifier (>= 2.7.2)
+  uglifier (>= 4.2.0)
   unf
-  websocket-client-simple (~> 0.5.1)
+  websocket-client-simple (~> 0.6.0)
   xmlrpc
 
 BUNDLED WITH
