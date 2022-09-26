@@ -52,7 +52,7 @@ GEM
       http_parser.rb (~> 0)
     equalizer (0.0.11)
     erubis (2.7.0)
-    espeak-ruby (1.0.5)
+    espeak-ruby (1.1.0)
     event_emitter (0.2.6)
     eventmachine (1.2.7)
     execjs (2.8.1)
@@ -276,9 +276,9 @@ DEPENDENCIES
   parseconfig
   pry-byebug
   qr4r
-  rack (>= 2.2.3.1)
-  rack-protection (>= 2.0.0)
-  rake (>= 12.3.3)
+  rack (>= 2.2.4)
+  rack-protection (>= 2.2.0)
+  rake (>= 13.0)
   rdoc
   rest-client (>= 2.1.0)
   rspec
@@ -286,7 +286,7 @@ DEPENDENCIES
   rubyzip (>= 1.2.2)
   rushover
   selenium-webdriver
-  sinatra (>= 2.0.2)
+  sinatra (>= 2.2.0)
   slack-notifier
   sqlite3
   term-ansicolor
@@ -294,7 +294,7 @@ DEPENDENCIES
   test-unit-full
   thin
   twitter (>= 7.0.0)
-  uglifier (>= 2.7.2)
+  uglifier (>= 4.2.0)
   unf
   websocket-client-simple (~> 0.5.1)
   xmlrpc
