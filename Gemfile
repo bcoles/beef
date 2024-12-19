@@ -63,7 +63,7 @@ end
 group :test do
     gem 'test-unit-full', '~> 0.0.5'
     gem 'rspec', '~> 3.12'
-    gem 'rdoc', '~> 6.5'
+    gem 'rdoc', '~> 6.10'
     gem 'browserstack-local', '~> 1.4'
 
     gem 'irb', '~> 1.6', '>= 1.6.3'
