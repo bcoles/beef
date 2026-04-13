@@ -213,12 +213,13 @@ GEM
       unf_ext
     unf_ext (0.0.8.2)
     unicode-display_width (2.4.2)
-    webrick (1.8.1)
+    webrick (1.9.2)
     websocket (1.2.9)
     websocket-client-simple (0.6.1)
       event_emitter
       websocket
-    xmlrpc (0.3.2)
+    xmlrpc (0.3.4)
+      rexml
       webrick
     xpath (3.2.0)
       nokogiri (~> 1.8)
@@ -267,7 +268,7 @@ DEPENDENCIES
   thin (~> 1.8)
   uglifier (~> 4.2)
   websocket-client-simple (~> 0.6.1)
-  xmlrpc (~> 0.3.2)
+  xmlrpc (~> 0.3.4)
 
 BUNDLED WITH
    2.4.8
